@@ -1,8 +1,89 @@
-button {
-  background-color: #0c80f3;
-  border: 6px solid #0ff166;
-  border-radius: 10px;
-  width: 150px;
+.header {
+  padding: 30px;
+}
+
+.ribbon {
+  background-color: darkred;
+  height: 50px;
+  width: 100%;
+  padding: 10px 30px;
+  align-content: center;
+  color: #fff;
+  font-size:1.2em;
+  font-weight:600;
+}
+
+.btn-main-left:disabled {
+  opacity: 0.65;
+  background-image:linear-gradient(rgba(66, 163, 187, 0.65), rgba(25, 109, 131, 0.65));
+}
+
+.btn-main-right:disabled {
+ opacity: 0.65; 
+ background-image:linear-gradient(rgba(66, 163, 187, 0.65), rgba(25, 109, 131, 0.65));
+}
+
+.btn-caution:disabled {
+  opacity: 0.65;
+  background-image:linear-gradient(rgba(137, 0, 0,0.65), rgba(98, 24, 24,0.65));
+}
+
+.app {
+  padding: 30px;
+}
+
+.btn-caution {
+  background-image: linear-gradient(darkred, rgb(98, 24, 24));
+  border-top: 2px solid darkred;
+  border-left: 2px solid darkred;
+  border-right: 2px solid rgb(98, 24, 24);
+  border-bottom: 2px solid rgb(98, 24, 24);
+  border-radius: 5px;
+  width: 100%;
+  min-width: 100%;
+  flex-grow:1;
+  padding: 20px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.btn-main-left {
+  background-image: linear-gradient(rgb(66, 163, 187), rgb(25, 109, 131));
+  border-top: 2px solid rgb(66,163,187);
+  border-left: 2px solid rgb(66,163,187);
+  border-right: 2px solid rgb(25, 109, 131);
+  border-bottom: 2px solid rgb(25, 109, 131);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 500;
+  flex-grow:1;
+  padding: 20px;
+  width: 100%;
+}
+
+.btn-main-right {
+  background-image: linear-gradient(rgb(66, 163, 187), rgb(25, 109, 131));
+  border-top: 2px solid rgb(66,163,187);
+  border-left: 2px solid rgb(66,163,187);
+  border-right: 2px solid rgb(25, 109, 131);
+  border-bottom: 2px solid rgb(25, 109, 131);
+  font-size:1.2em;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #fff;
+  flex-grow:1;
+  padding: 20px;
+  width: 100%;
+}
+
+.btn-div-left {
+  margin: 40px 40px 20px 40px;
+}
+
+.btn-div-right {
+  margin: 40px 40px 20px 40px;
 }
 
 select {
